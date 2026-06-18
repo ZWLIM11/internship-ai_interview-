@@ -1,0 +1,104 @@
+[
+    {
+        "question": "Can you introduce yourself and explain why you're interested in this role? What are your career goals in the next 5 years?",
+        "question_tag": "core",
+        "difficulty": "easy",
+        "target_competency": [
+            "Motivation",
+            "Career Goals"
+        ],
+        "expected_scope": [
+            "Personal background",
+            "Alignment with role"
+        ],
+        "follow_up_trigger": [
+            "Specific projects mentioned",
+            "Career milestones"
+        ]
+    },
+    {
+        "question": "Explain how you would handle missing data in a SQL database. Provide an example of a Python script you've written for data cleaning.",
+        "question_tag": "technical",
+        "difficulty": "easy",
+        "target_competency": [
+            "Technical Skills",
+            "Problem Solving"
+        ],
+        "expected_scope": [
+            "SQL proficiency",
+            "Python implementation"
+        ],
+        "follow_up_trigger": [
+            "Specific SQL functions used",
+            "Data cleaning challenges faced"
+        ]
+    },
+    {
+        "question": "Describe a time when you had to explain a complex machine learning concept to a non-technical stakeholder. How did you ensure clarity?",
+        "question_tag": "behavioural",
+        "difficulty": "medium",
+        "target_competency": [
+            "Communication",
+            "Ownership"
+        ],
+        "expected_scope": [
+            "Interpersonal skills",
+            "Simplification techniques"
+        ],
+        "follow_up_trigger": [
+            "Specific examples of stakeholder interactions",
+            "Feedback received"
+        ]
+    },
+    {
+        "question": "Tell me about a project where you had conflicting priorities. How did you resolve the conflict while maintaining quality deliverables?",
+        "question_tag": "behavioural",
+        "difficulty": "hard",
+        "target_competency": [
+            "Conflict Handling",
+            "Decision Making"
+        ],
+        "expected_scope": [
+            "Prioritization strategies",
+            "Team dynamics"
+        ],
+        "follow_up_trigger": [
+            "Specific conflict resolution steps",
+            "Outcome metrics"
+        ]
+    },
+    {
+        "question": "You're tasked with deploying a machine learning model to AWS. However, the team is debating between using EC2 for computation or SageMaker for automation. How would you approach this decision?",
+        "question_tag": "situational",
+        "difficulty": "hard",
+        "target_competency": [
+            "Critical Thinking",
+            "Technical Decision Making"
+        ],
+        "expected_scope": [
+            "Cloud infrastructure",
+            "Scalability considerations"
+        ],
+        "follow_up_trigger": [
+            "Cost-benefit analysis",
+            "Team collaboration strategies"
+        ]
+    },
+    {
+        "question": "Walk me through how you would optimize a slow-performing SQL query. What tools or techniques would you use to identify and resolve the bottleneck?",
+        "question_tag": "technical",
+        "difficulty": "medium",
+        "target_competency": [
+            "Technical Skills",
+            "Analytical Mindset"
+        ],
+        "expected_scope": [
+            "SQL optimization",
+            "Performance tuning"
+        ],
+        "follow_up_trigger": [
+            "Specific tools mentioned",
+            "Indexing strategies"
+        ]
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "question": "Can you introduce yourself and explain why you're interested in this role? What are your career goals in the next 5 years?",
+        "question_tag": "core",
+        "difficulty": "easy",
+        "competency": [
+            "Motivation",
+            "Career Goals"
+        ],
+        "weight": 5,
+        "score_breakdown": {
+            "keywords": 30,
+            "scope_coverage": 30,
+            "relevance": 20,
+            "communication": 20
+        },
+        "ideal_answer": "I am a data analyst with 3 years of experience in optimizing data pipelines and driving business insights. I’m passionate about this role because it aligns with my goal of combining technical expertise with business impact. Over the next five years, I aim to specialize in AI-driven analytics and lead cross-functional projects that scale data solutions. My career focus is on growing into a senior data architect role, where I can innovate and mentor teams.",
+        "keywords": [
+            "career goals",
+            "motivation",
+            "role alignment",
+            "professional growth",
+            "technical expertise"
+        ],
+        "expected_scope": [
+            "Personal background",
+            "Alignment with role",
+            "Career milestones",
+            "Long-term aspirations"
+        ],
+        "follow_up_trigger": [
+            "specific projects mentioned",
+            "career milestones",
+            "weak reasoning"
+        ],
+        "scoring_criteria": {
+            "poor": "Vague or irrelevant response with no clear career direction.",
+            "average": "Mentions role alignment but lacks specific career goals or motivation.",
+            "excellent": "Clear, concise, and detailed explanation of motivation, goals, and alignment with the role."
+        }
+    },
+    {
+        "question": "Explain how you would handle missing data in a SQL database. Provide an example of a Python script you've written for data cleaning.",
+        "question_tag": "technical",
+        "difficulty": "easy",
+        "competency": [
+            "Technical Skills",
+            "Problem Solving"
+        ],
+        "weight": 5,
+        "score_breakdown": {
+            "keywords": 30,
+            "scope_coverage": 30,
+            "relevance": 20,
+            "communication": 20
+        },
+        "ideal_answer": "I’d first identify missing data patterns using SQL’s COALESCE or IS NULL checks. For critical fields, I’d impute values using mean/median or domain-specific rules. For example, I wrote a Python script using pandas to fill missing sales data with interpolation and drop rows with excessive nulls. The script also validated data types and ensured consistency across tables.",
+        "keywords": [
+            "missing data",
+            "SQL functions",
+            "Python scripting",
+            "data imputation",
+            "data validation"
+        ],
+        "expected_scope": [
+            "SQL proficiency",
+            "Python implementation",
+            "Data cleaning techniques",
+            "Data validation"
+        ],
+        "follow_up_trigger": [
+            "specific SQL functions used",
+            "data cleaning challenges faced",
+            "incomplete answer"
+        ],
+        "scoring_criteria": {
+            "poor": "Generic answer without specific SQL/Python examples.",
+            "average": "Mentions methods but lacks concrete examples or code.",
+            "excellent": "Detailed explanation with clear SQL/Python examples and problem-solving approach."
+        }
+    },
+    {
+        "question": "Describe a time when you had to explain a complex machine learning concept to a non-technical stakeholder. How did you ensure clarity?",
+        "question_tag": "behavioural",
+        "difficulty": "medium",
+        "competency": [
+            "Communication",
+            "Ownership"
+        ],
+        "weight": 10,
+        "score_breakdown": {
+            "keywords": 30,
+            "scope_coverage": 30,
+            "relevance": 20,
+            "communication": 20
+        },
+        "ideal_answer": "I once explained gradient boosting to a marketing team by comparing it to a ‘team of experts improving predictions step-by-step.’ I used a visual analogy of a recipe where each ingredient (feature) adds value. I avoided jargon, focused on outcomes like campaign ROI, and provided a simplified dashboard to showcase results. Feedback confirmed the analogy helped them grasp the model’s impact.",
+        "keywords": [
+            "communication",
+            "simplification",
+            "non-technical stakeholders",
+            "visual analogies",
+            "outcome focus"
+        ],
+        "expected_scope": [
+            "Interpersonal skills",
+            "Simplification techniques",
+            "Stakeholder feedback",
+            "Outcome focus"
+        ],
+        "follow_up_trigger": [
+            "specific examples of stakeholder interactions",
+            "feedback received",
+            "unable_to_explain"
+        ],
+        "scoring_criteria": {
+            "poor": "Answer lacks specific examples or clarity strategies.",
+            "average": "Mentions communication but lacks stakeholder interaction details.",
+            "excellent": "Detailed example with clear simplification techniques and stakeholder feedback."
+        }
+    },
+    {
+        "question": "Tell me about a project where you had conflicting priorities. How did you resolve the conflict while maintaining quality deliverables?",
+        "question_tag": "behavioural",
+        "difficulty": "hard",
+        "competency": [
+            "Conflict Handling",
+            "Decision Making"
+        ],
+        "weight": 15,
+        "score_breakdown": {
+            "keywords": 30,
+            "scope_coverage": 30,
+            "relevance": 20,
+            "communication": 20
+        },
+        "ideal_answer": "In a project with tight deadlines, the client prioritized feature A over bug fixes. I organized a meeting to align priorities, proposed a phased release with critical bugs addressed first, and used a risk matrix to justify the trade-off. By involving stakeholders early and maintaining transparent communication, we delivered quality results without compromising the timeline.",
+        "keywords": [
+            "conflict resolution",
+            "prioritization",
+            "stakeholder alignment",
+            "risk matrix",
+            "quality deliverables"
+        ],
+        "expected_scope": [
+            "Prioritization strategies",
+            "Team dynamics",
+            "Stakeholder alignment",
+            "Outcome metrics"
+        ],
+        "follow_up_trigger": [
+            "specific conflict resolution steps",
+            "outcome metrics",
+            "weak reasoning"
+        ],
+        "scoring_criteria": {
+            "poor": "Generic answer without conflict details or resolution steps.",
+            "average": "Mentions conflict but lacks specific strategies or outcomes.",
+            "excellent": "Clear, detailed example with actionable steps and measurable outcomes."
+        }
+    },
+    {
+        "question": "You're tasked with deploying a machine learning model to AWS. However, the team is debating between using EC2 for computation or SageMaker for automation. How would you approach this decision?",
+        "question_tag": "situational",
+        "difficulty": "hard",
+        "competency": [
+            "Critical Thinking",
+            "Technical Decision Making"
+        ],
+        "weight": 15,
+        "score_breakdown": {
+            "keywords": 30,
+            "scope_coverage": 30,
+            "relevance": 20,
+            "communication": 20
+        },
+        "ideal_answer": "I’d evaluate requirements: EC2 offers flexibility for custom workflows and scaling, while SageMaker simplifies MLOps with built-in tools for training, deployment, and monitoring. If the team needs full control over infrastructure and custom pipelines, EC2 is better. For rapid prototyping and automation, SageMaker is ideal. I’d propose a cost-benefit analysis and align with the team’s long-term infrastructure goals.",
+        "keywords": [
+            "cloud infrastructure",
+            "cost-benefit analysis",
+            "MLOps",
+            "scalability",
+            "team collaboration"
+        ],
+        "expected_scope": [
+            "Cloud infrastructure",
+            "Scalability considerations",
+            "Cost-benefit analysis",
+            "Team collaboration strategies"
+        ],
+        "follow_up_trigger": [
+            "cost-benefit analysis",
+            "team collaboration strategies",
+            "incomplete answer"
+        ],
+        "scoring_criteria": {
+            "poor": "Generic answer without technical or strategic analysis.",
+            "average": "Mentions options but lacks justification or team alignment details.",
+            "excellent": "Detailed analysis of pros/cons, cost-benefit, and team alignment strategies."
+        }
+    },
+    {
+        "question": "Walk me through how you would optimize a slow-performing SQL query. What tools or techniques would you use to identify and resolve the bottleneck?",
+        "question_tag": "technical",
+        "difficulty": "medium",
+        "competency": [
+            "Technical Skills",
+            "Analytical Mindset"
+        ],
+        "weight": 10,
+        "score_breakdown": {
+            "keywords": 30,
+            "scope_coverage": 30,
+            "relevance": 20,
+            "communication": 20
+        },
+        "ideal_answer": "I’d start by analyzing the query execution plan using EXPLAIN to identify slow operations like full table scans. I’d check for missing indexes, optimize joins with proper indexing, and rewrite subqueries. Tools like MySQL’s slow query log or EXPLAIN ANALYZE would help pinpoint bottlenecks. For example, adding an index on a frequently filtered column reduced a query’s runtime from 10 seconds to 0.5 seconds.",
+        "keywords": [
+            "SQL optimization",
+            "execution plan",
+            "indexing",
+            "query rewriting",
+            "performance tuning"
+        ],
+        "expected_scope": [
+            "SQL optimization",
+            "Performance tuning",
+            "Indexing strategies",
+            "Query execution analysis"
+        ],
+        "follow_up_trigger": [
+            "specific tools mentioned",
+            "indexing strategies",
+            "incomplete answer"
+        ],
+        "scoring_criteria": {
+            "poor": "Generic answer without specific optimization techniques or tools.",
+            "average": "Mentions methods but lacks concrete examples or tools.",
+            "excellent": "Detailed process with specific tools, indexing strategies, and measurable improvements."
+        }
+    }
+]

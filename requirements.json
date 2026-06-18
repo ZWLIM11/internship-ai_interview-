@@ -1,0 +1,22 @@
+{
+    "must": [
+        "Bachelor's Degree in Computer Science, Data Science, Mathematics, or related field",
+        "Proficiency in Python",
+        "Proficiency in SQL",
+        "Strong foundation in Machine Learning concepts and algorithms",
+        "Analytical mindset with attention to detail"
+    ],
+    "addition": [
+        "Experience with AWS cloud services",
+        "Knowledge of Docker for containerization",
+        "Familiarity with data visualization tools (e.g., Tableau, Power BI)"
+    ],
+    "fail": [
+        "No work authorization",
+        "False information provided",
+        "Resume-interview contradiction",
+        "Unable to demonstrate required technical skills",
+        "Academic qualification below minimum requirement",
+        "Unprofessional interview behaviour"
+    ]
+}

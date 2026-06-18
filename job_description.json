@@ -1,0 +1,23 @@
+{
+    "job_title": "Junior Data Scientist",
+    "job_summary": "We are seeking a Junior Data Scientist to join our Data Analytics department in Kuala Lumpur on a Full Time basis. The ideal candidate will have a Bachelor's degree and strong skills in Python, SQL, and Machine Learning. Experience with AWS and Docker is a plus.",
+    "responsibilities": [
+        "Analyze and interpret complex data to derive actionable insights",
+        "Develop and implement machine learning models to solve business problems",
+        "Collaborate with cross-functional teams to translate business requirements into data-driven solutions",
+        "Document workflows, models, and findings for transparency and reproducibility",
+        "Contribute to the design and optimization of data pipelines"
+    ],
+    "qualifications": [
+        "Bachelor's Degree in Computer Science, Data Science, Mathematics, or related field",
+        "Proficiency in Python and SQL",
+        "Strong foundation in Machine Learning concepts and algorithms",
+        "Analytical mindset with attention to detail",
+        "Excellent communication skills for presenting findings to stakeholders"
+    ],
+    "preferred_qualifications": [
+        "Experience with AWS cloud services",
+        "Knowledge of Docker for containerization",
+        "Familiarity with data visualization tools (e.g., Tableau, Power BI)"
+    ]
+}

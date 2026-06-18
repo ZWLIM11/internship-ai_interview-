@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Can you introduce yourself and explain why you're interested in this role? What are your career goals in the next 5 years?",
+        "candidate_answer": "Hi, I'm a data analyst with 3 years of experience. I'm passionate about solving complex problems and driving business insights. This role aligns with my goal to specialize in data engineering. In 5 years, I aim to lead cross-functional projects and mentor junior analysts."
+    },
+    {
+        "question": "Explain how you would handle missing data in a SQL database. Provide an example of a Python script you've written for data cleaning.",
+        "candidate_answer": "I'd use SQL's COALESCE or IFNULL functions to handle missing data. For example, I wrote a script using pandas to impute NaN values with median. I also used regex to clean inconsistent date formats in a previous project."
+    },
+    {
+        "question": "Describe a time when you had to explain a complex machine learning concept to a non-technical stakeholder. How did you ensure clarity?",
+        "candidate_answer": "I once explained gradient boosting to a marketing team by comparing it to a voting system. I used analogies and avoided jargon, focusing on outcomes like improved campaign targeting. Feedback showed they understood the benefits clearly."
+    },
+    {
+        "question": "Tell me about a project where you had conflicting priorities. How did you resolve the conflict while maintaining quality deliverables?",
+        "candidate_answer": "In a dashboard project, I had to balance speed and accuracy. I prioritized critical features first, then iterated. By involving the team in daily standups, we maintained quality while meeting deadlines."
+    },
+    {
+        "question": "You're tasked with deploying a machine learning model to AWS. However, the team is debating between using EC2 for computation or SageMaker for automation. How would you approach this decision?",
+        "candidate_answer": "I'd evaluate requirements: EC2 offers flexibility for custom setups, while SageMaker simplifies MLOps. If the team needs automation and scalability, SageMaker is better. Otherwise, EC2 provides more control."
+    },
+    {
+        "question": "Walk me through how you would optimize a slow-performing SQL query. What tools or techniques would you use to identify and resolve the bottleneck?",
+        "candidate_answer": "I'd start by analyzing the query with EXPLAIN to find bottlenecks. Then, I'd add indexes to frequently searched columns and rewrite subqueries. In a previous role, this reduced query time by 60%."
+    }
+]
